@@ -1,69 +1,43 @@
-# React + TypeScript + Vite
+# CalorieTracker
+Aplicación web para el seguimiento de la ingesta calórica y el ejercicio físico. Los usuarios pueden registrar sus comidas y ejercicios, ver las calorías ganadas y perdidas respectivamente, y calcular si están en déficit, mantenimiento o superávit calórico. La información se guarda localmente en el navegador utilizando localStorage, ofreciendo una experiencia rápida y accesible.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
+💡 *El proyecto ha sido desarrollado con las siguientes tecnologías:*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Frontend
+- ⚛ **React** - Biblioteca de JavaScript para construir interfaces de usuario interactivas y reactivas.
 
-## Expanding the ESLint configuration
+- 💻 **TypeScript** - Lenguaje que proporciona tipado estático para mejorar la calidad y la seguridad del código.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🎨 **TailwindCSS** - Framework CSS de utilidad para crear interfaces modernas y responsivas de manera eficiente.
+  
+- 🗃 **LocalStorage** - API de almacenamiento local para guardar los registros de comidas, ejercicios y calorías de forma persistente en el navegador.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🔑 **UUID** - Generador de identificadores únicos para los registros de alimentos y ejercicios.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- 🧪 **Vite** - Herramienta de construcción rápida que permite un desarrollo ágil y con tiempos de recarga muy bajos.
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ⚙ Instalación y Configuración  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clona el repositorio:  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+    ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   cd tu-repositorio
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2. Instala las dependencias necesarias:
+    ```bash
+   npm install
+
+3. Ejecuta la aplicación en Frontend:
+    ```bash
+   npm run dev
+---
+
+## 💡 Notas Adicionales
+
+> [!WARNING] 
+>  Este es mi tercer proyecto desarrollado con estas tecnologías, realizado gracias a un curso de Udemy. ¡Cualquier sugerencia o retroalimentación es bienvenida!
