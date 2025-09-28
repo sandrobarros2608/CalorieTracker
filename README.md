@@ -1,5 +1,5 @@
 # CalorieTracker
-Aplicación web para el seguimiento de la ingesta calórica y el ejercicio físico. Los usuarios pueden registrar sus comidas y ejercicios, ver las calorías ganadas y perdidas respectivamente, y calcular si están en déficit, mantenimiento o superávit calórico. La información se guarda localmente en el navegador utilizando localStorage, ofreciendo una experiencia rápida y accesible.
+Aplicación web para el seguimiento de la ingesta calórica y el ejercicio físico. Los usuarios pueden registrar sus comidas y ejercicios, ver las calorías ganadas y perdidas respectivamente, y calcular si están en déficit, mantenimiento o superávit calórico.
 
 ---
 
